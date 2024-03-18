@@ -22,9 +22,7 @@
 
 module complete_module(
     input [31:0] in_a,
-//    input [32:0] in_a2,
     input [31:0] in_b,
-//    input [32:0] in_b2,
     output  [31:0] out_a,
     output  [31:0] out_b,
     output  [31:0] out_c
@@ -53,8 +51,5 @@ module complete_module(
         int_c<=fg;
     end
     assign out_c=int_c;
-    
-        
-    
     
 endmodule
